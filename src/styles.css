@@ -150,5 +150,10 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-mono);
+    background-image:
+      radial-gradient(circle at 15% -10%, oklch(0.79 0.16 158 / 0.10), transparent 45%),
+      radial-gradient(circle at 90% 0%, oklch(0.72 0.11 240 / 0.10), transparent 40%);
+    background-attachment: fixed;
   }
 }
